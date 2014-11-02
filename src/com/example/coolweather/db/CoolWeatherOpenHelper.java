@@ -5,6 +5,10 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 
+/**
+ * 
+ * cause by huyongxi at 2014-10-13 ÏÂÎç8:55:42
+ */
 public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
 
 	private final static String PROVINCE_TABLE = "create table province (" +
@@ -27,10 +31,6 @@ public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
 	public CoolWeatherOpenHelper(Context context, String name,
 			CursorFactory factory, int version) {
 		super(context, name, factory, version);
-	}
-	
-	public CoolWeatherOpenHelper(Context context){
-		this(context,"coolweather.db",null,1);
 	}
 
 	@Override

@@ -3,12 +3,13 @@ package com.example.coolweather.db;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
+
 public class CoolWeatherDB {
 
 	/**
 	 * 数据库名字，定义为public，方便其他类引用
 	 */
-	public static final String DB_NAME = "cool_weather";
+	public static final String DB_NAME = "cool_weather.db";
 	
 	public static final int VERSION = 1;
 	
